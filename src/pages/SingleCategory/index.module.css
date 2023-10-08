@@ -1,0 +1,19 @@
+.category_wrapper {
+    width: 67%;
+    margin: 0 auto;
+}
+
+.products_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 60px 0;
+    gap: 30px;
+}
+.category_title {
+    margin-top: 50px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+}

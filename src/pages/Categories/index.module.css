@@ -1,0 +1,21 @@
+.categories_wrapper {
+    width: 67%;
+    margin: 0 auto;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 75px;
+    gap: 40px;
+}
+
+.category_title {
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 50px;
+}
